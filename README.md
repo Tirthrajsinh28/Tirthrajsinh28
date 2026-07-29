@@ -11,7 +11,7 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
 | ServicePulse | Incident workflows, secure APIs, PostgreSQL design, testing, and observability | Locally verified; repository not yet published |
 | CloudFileFlow | Event-driven file processing, idempotency, retries, dead-letter handling, and auditability | Locally verified with SQLite/filesystem adapters; repository not yet published |
 | ReleaseGuard | Transparent release-readiness checks, CI-friendly exit codes, and human/JSON reports | Locally verified CLI; repository not yet published |
-| Portfolio | Accessible project case studies and engineering evidence | Locally verified with three case studies; live link not yet available |
+| Portfolio | Accessible project case studies and engineering evidence | [Repository published](https://github.com/Tirthrajsinh28/portfolio); live link not yet available |
 
 ## Evidence snapshot
 
@@ -22,10 +22,11 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
   and local API/worker runtime verification using SQLite/filesystem adapters.
 - ReleaseGuard: 13 local tests, strict TypeScript checks, coverage enforcement,
   compiled CLI scenarios, and package-boundary inspection.
-- Portfolio: local React build and route tests for evidence-backed project
-  case studies; no live deployment URL is claimed yet.
+- Portfolio: React build, route/accessibility tests, high-severity dependency
+  audit, and remote GitHub Actions verify job passed for the public repository;
+  no live deployment URL is claimed yet.
 
-Projects are independent portfolio work built with fictional organizations and synthetic data. Repository and demonstration links will be added only after their builds, tests, documentation, and current status are verified and published.
+Projects are independent portfolio work built with fictional organizations and synthetic data. Repository and demonstration links are added only after their builds, tests, documentation, and current status are verified and published.
 
 ## Current technical focus
 
