@@ -10,7 +10,7 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
 | --- | --- | --- |
 | ServicePulse | Incident workflows, secure APIs, PostgreSQL design, testing, and observability | [Repository published](https://github.com/Tirthrajsinh28/servicepulse); public CI passed; no live demo yet |
 | CloudFileFlow | Event-driven file processing, idempotency, retries, dead-letter handling, and auditability | [Repository published](https://github.com/Tirthrajsinh28/cloudfileflow); public CI passed; no live demo yet |
-| ReleaseGuard | Transparent release-readiness checks, CI-friendly exit codes, and human/JSON reports | Locally verified CLI; repository not yet published |
+| ReleaseGuard | Transparent release-readiness checks, CI-friendly exit codes, and human/JSON reports | [Repository published](https://github.com/Tirthrajsinh28/releaseguard); public CI passed; no npm release |
 | Portfolio | Accessible project case studies and engineering evidence | [Repository published](https://github.com/Tirthrajsinh28/portfolio); live link not yet available |
 
 ## Evidence snapshot
@@ -25,7 +25,9 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
   public CloudFileFlow CI run `30524523738` passed at commit
   `949ebe2488a3b89374253babe48b392d2b24ad99`.
 - ReleaseGuard: 13 local tests, strict TypeScript checks, coverage enforcement,
-  compiled CLI scenarios, and package-boundary inspection.
+  compiled CLI scenarios, package-boundary inspection, and public ReleaseGuard
+  CI run `30530094408` passed at commit
+  `0604a61ddd4bf81288185c17637ac237655901b9`.
 - Portfolio: React build, route/accessibility tests, high-severity dependency
   audit, and remote GitHub Actions verify job passed for the public repository;
   no live deployment URL is claimed yet.
