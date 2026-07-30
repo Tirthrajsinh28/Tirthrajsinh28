@@ -8,7 +8,7 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
 
 | Project | Engineering focus | Current status |
 | --- | --- | --- |
-| ServicePulse | Incident workflows, secure APIs, PostgreSQL design, testing, and observability | Locally verified; repository not yet published |
+| ServicePulse | Incident workflows, secure APIs, PostgreSQL design, testing, and observability | [Repository published](https://github.com/Tirthrajsinh28/servicepulse); public CI passed; no live demo yet |
 | CloudFileFlow | Event-driven file processing, idempotency, retries, dead-letter handling, and auditability | Locally verified with SQLite/filesystem adapters; repository not yet published |
 | ReleaseGuard | Transparent release-readiness checks, CI-friendly exit codes, and human/JSON reports | Locally verified CLI; repository not yet published |
 | Portfolio | Accessible project case studies and engineering evidence | [Repository published](https://github.com/Tirthrajsinh28/portfolio); live link not yet available |
@@ -17,7 +17,9 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
 
 - ServicePulse: 68 backend tests, 20 frontend tests, automated axe checks on
   12 route states, 19 OpenAPI paths, and a local browser workflow review
-  using a clearly labeled H2 development substitute.
+  using a clearly labeled H2 development substitute. Public ServicePulse CI
+  passed for the frontend job and backend verify job at commit
+  `7d947f7ccbb28978e7576663733b5e30edffcb4b`.
 - CloudFileFlow: 31 local tests, 91% line coverage, Alembic migration checks,
   and local API/worker runtime verification using SQLite/filesystem adapters.
 - ReleaseGuard: 13 local tests, strict TypeScript checks, coverage enforcement,
