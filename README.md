@@ -9,7 +9,7 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
 | Project | Engineering focus | Current status |
 | --- | --- | --- |
 | ServicePulse | Incident workflows, secure APIs, PostgreSQL design, testing, and observability | [Repository published](https://github.com/Tirthrajsinh28/servicepulse); public CI passed; no live demo yet |
-| CloudFileFlow | Event-driven file processing, idempotency, retries, dead-letter handling, and auditability | Locally verified with SQLite/filesystem adapters; repository not yet published |
+| CloudFileFlow | Event-driven file processing, idempotency, retries, dead-letter handling, and auditability | [Repository published](https://github.com/Tirthrajsinh28/cloudfileflow); public CI passed; no live demo yet |
 | ReleaseGuard | Transparent release-readiness checks, CI-friendly exit codes, and human/JSON reports | Locally verified CLI; repository not yet published |
 | Portfolio | Accessible project case studies and engineering evidence | [Repository published](https://github.com/Tirthrajsinh28/portfolio); live link not yet available |
 
@@ -20,8 +20,10 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
   using a clearly labeled H2 development substitute. Public ServicePulse CI
   passed for the frontend job and backend verify job at commit
   `7d947f7ccbb28978e7576663733b5e30edffcb4b`.
-- CloudFileFlow: 31 local tests, 91% line coverage, Alembic migration checks,
-  and local API/worker runtime verification using SQLite/filesystem adapters.
+- CloudFileFlow: 34 local tests, 90% reported coverage, Alembic migration checks,
+  local API/worker runtime verification using SQLite/filesystem adapters, and
+  public CloudFileFlow CI run `30524523738` passed at commit
+  `949ebe2488a3b89374253babe48b392d2b24ad99`.
 - ReleaseGuard: 13 local tests, strict TypeScript checks, coverage enforcement,
   compiled CLI scenarios, and package-boundary inspection.
 - Portfolio: React build, route/accessibility tests, high-severity dependency
