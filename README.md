@@ -11,7 +11,7 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
 | ServicePulse | Incident workflows, secure APIs, PostgreSQL design, testing, and observability | [Repository published](https://github.com/Tirthrajsinh28/servicepulse); public CI passed; no live demo yet |
 | CloudFileFlow | Event-driven file processing, idempotency, retries, dead-letter handling, and auditability | [Repository published](https://github.com/Tirthrajsinh28/cloudfileflow); public CI passed; no live demo yet |
 | ReleaseGuard | Transparent release-readiness checks, CI-friendly exit codes, and human/JSON reports | [Repository published](https://github.com/Tirthrajsinh28/releaseguard); public CI passed; no npm release |
-| Portfolio | Accessible project case studies and engineering evidence | [Repository published](https://github.com/Tirthrajsinh28/portfolio); live link not yet available |
+| Portfolio | Accessible project case studies, screenshots, and engineering evidence | [Repository published](https://github.com/Tirthrajsinh28/portfolio); live link not yet available |
 
 ## Evidence snapshot
 
@@ -19,18 +19,23 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
   12 route states, 19 OpenAPI paths, and a local browser workflow review
   using a clearly labeled H2 development substitute. Public ServicePulse CI
   passed for the frontend job and backend verify job at commit
-  `7d947f7ccbb28978e7576663733b5e30edffcb4b`.
+  `9c6e91be0eedf5f1bfe59d9ec8675f286a0fb3cc`; the public `v0.1.0` source tag
+  is verified.
 - CloudFileFlow: 34 local tests, 90% reported coverage, Alembic migration checks,
   local API/worker runtime verification using SQLite/filesystem adapters, and
-  public CloudFileFlow CI run `30524523738` passed at commit
-  `949ebe2488a3b89374253babe48b392d2b24ad99`.
+  public CloudFileFlow CI run `30581003383` passed at commit
+  `79f41f264bcd58a946e5e81d2e9f1d24109bbdbc`; the public `v0.1.0` source tag
+  is verified.
 - ReleaseGuard: 13 local tests, strict TypeScript checks, coverage enforcement,
   compiled CLI scenarios, package-boundary inspection, and public ReleaseGuard
-  CI run `30530094408` passed at commit
-  `0604a61ddd4bf81288185c17637ac237655901b9`.
+  CI run `30581002440` passed at commit
+  `a7e9051730fcf86940c6ee1e5931375a0ae429db`; the public `v0.1.0` source tag
+  is verified.
 - Portfolio: React build, route/accessibility tests, high-severity dependency
-  audit, and remote GitHub Actions verify job passed for the public repository;
-  no live deployment URL is claimed yet.
+  audit, ServicePulse screenshots, CloudFileFlow and ReleaseGuard static demo
+  media, and Portfolio CI run `30763132905` passed at commit
+  `30909f39465f3efd1a12ecd16ba567bd118cf364`; no live deployment URL is
+  claimed yet.
 
 Projects are independent portfolio work built with fictional organizations and synthetic data. Repository and demonstration links are added only after their builds, tests, documentation, and current status are verified and published.
 
