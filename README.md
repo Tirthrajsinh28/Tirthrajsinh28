@@ -33,8 +33,8 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
   is verified.
 - Portfolio: React build, route/accessibility tests, high-severity dependency
   audit, ServicePulse screenshots, CloudFileFlow and ReleaseGuard static demo
-  media, and Portfolio CI run `30763132905` passed at commit
-  `30909f39465f3efd1a12ecd16ba567bd118cf364`; no live deployment URL is
+  media, deployment runbook, and Portfolio CI run `30765999737` passed at
+  commit `d973079a7a98c625b5034b5e30f0e6a9af1bc8e1`; no live deployment URL is
   claimed yet.
 
 Projects are independent portfolio work built with fictional organizations and synthetic data. Repository and demonstration links are added only after their builds, tests, documentation, and current status are verified and published.
