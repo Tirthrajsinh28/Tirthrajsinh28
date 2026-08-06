@@ -17,10 +17,11 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
 
 - ServicePulse: 68 backend tests, 20 frontend tests, automated axe checks on
   12 route states, 19 OpenAPI paths, and a local browser workflow review
-  using a clearly labeled H2 development substitute. Public ServicePulse CI
-  passed for the frontend job and backend verify job at commit
-  `9c6e91be0eedf5f1bfe59d9ec8675f286a0fb3cc`; the public `v0.1.0` source tag
-  is verified.
+  using a clearly labeled H2 development substitute. Current public source
+  commit: `c6000f1f3a3ea66b8475114a3ac82b9f9d5a0efb`. Latest observed
+  successful public ServicePulse CI evidence passed for the frontend job and
+  backend verify job at commit `9c6e91be0eedf5f1bfe59d9ec8675f286a0fb3cc`;
+  the public `v0.1.0` source tag is verified.
 - CloudFileFlow: 34 local tests, 90% reported coverage, Alembic migration checks,
   local API/worker runtime verification using SQLite/filesystem adapters, and
   public CloudFileFlow CI run `30581003383` passed at commit
@@ -33,8 +34,10 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
   is verified.
 - Portfolio: React build, route/accessibility tests, high-severity dependency
   audit, ServicePulse screenshots, CloudFileFlow and ReleaseGuard static demo
-  media, deployment runbook, and Portfolio CI run `30765999737` passed at
-  commit `d973079a7a98c625b5034b5e30f0e6a9af1bc8e1`; no live deployment URL is
+  media, and deployment runbook. Current public source commit:
+  `0eec486c90868c27218b2853de7cd9eb8a62f18e`. Latest observed successful
+  Portfolio CI run `30765999737` passed at commit
+  `d973079a7a98c625b5034b5e30f0e6a9af1bc8e1`; no live deployment URL is
   claimed yet.
 
 Projects are independent portfolio work built with fictional organizations and synthetic data. Repository and demonstration links are added only after their builds, tests, documentation, and current status are verified and published.
