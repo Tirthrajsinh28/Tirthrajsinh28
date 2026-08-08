@@ -15,8 +15,8 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
 
 ## Evidence snapshot
 
-- ServicePulse: 68 backend tests, 20 frontend tests, automated axe checks on
-  12 route states, 19 OpenAPI paths, and a local browser workflow review
+- ServicePulse: 71 backend tests, 20 frontend tests, automated axe checks on
+  12 route states, 20 OpenAPI paths, and a local browser workflow review
   using a clearly labeled H2 development substitute. Current public source
   commit: `c6000f1f3a3ea66b8475114a3ac82b9f9d5a0efb`. Latest observed
   successful public ServicePulse CI evidence passed for the frontend job and
