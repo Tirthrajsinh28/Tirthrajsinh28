@@ -15,13 +15,13 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
 
 ## Evidence snapshot
 
-- ServicePulse: 78 backend tests, 20 frontend tests, automated axe checks on
-  12 route states, 23 OpenAPI paths, and a local browser workflow review
-  using a clearly labeled H2 development substitute. Current public source
-  commit: `c6000f1f3a3ea66b8475114a3ac82b9f9d5a0efb`. Latest observed
-  successful public ServicePulse CI evidence passed for the frontend job and
-  backend verify job at commit `9c6e91be0eedf5f1bfe59d9ec8675f286a0fb3cc`;
-  the public `v0.1.0` source tag is verified.
+- ServicePulse: 78 backend tests, 21 frontend tests, automated axe coverage on
+  the tested route states, 23 OpenAPI paths, and a local browser workflow
+  review using a clearly labeled H2 development substitute. Current public
+  source commit: `7bdb5ec2eca234bdd9ee9d284e60a50caa799290`. Public
+  ServicePulse CI run `31635222134` passed at that commit with frontend
+  checks/audit/image build and backend unit/PostgreSQL integration tests plus
+  backend image build; the public `v0.1.0` source tag is verified.
 - CloudFileFlow: 34 local tests, 90% reported coverage, Alembic migration checks,
   local API/worker runtime verification using SQLite/filesystem adapters, and
   public CloudFileFlow CI run `30581003383` passed at commit
@@ -35,9 +35,8 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
 - Portfolio: React build, route/accessibility tests, high-severity dependency
   audit, ServicePulse screenshots, CloudFileFlow and ReleaseGuard static demo
   media, and deployment runbook. Current public source commit:
-  `9e87b6c997dd0c408813ee66b95e256040dbee15`. Latest observed successful
-  Portfolio CI run `31161636007` passed at that commit; no live deployment URL
-  is claimed yet.
+  `6b03ba8e789ee9af050f6b4d386752c62da5a1b3`. Portfolio CI run
+  `31635890591` passed at that commit; no live deployment URL is claimed yet.
 
 Projects are independent portfolio work built with fictional organizations and synthetic data. Repository and demonstration links are added only after their builds, tests, documentation, and current status are verified and published.
 
