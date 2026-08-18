@@ -22,10 +22,11 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
   ServicePulse CI run `31635222134` passed at that commit with frontend
   checks/audit/image build and backend unit/PostgreSQL integration tests plus
   backend image build; the public `v0.1.0` source tag is verified.
-- CloudFileFlow: 34 local tests, 90% reported coverage, Alembic migration checks,
-  local API/worker runtime verification using SQLite/filesystem adapters, and
-  public CloudFileFlow CI run `30581003383` passed at commit
-  `79f41f264bcd58a946e5e81d2e9f1d24109bbdbc`; the public `v0.1.0` source tag
+- CloudFileFlow: 36 local tests, 90% reported coverage, Alembic migration checks,
+  local API/worker runtime verification using SQLite/filesystem adapters,
+  audited operator-only dead-letter replay, and public CloudFileFlow CI run
+  `31638046039` passed at commit
+  `79819432d12e97d3d324b092293327f3ea27e162`; the public `v0.1.0` source tag
   is verified.
 - ReleaseGuard: 13 local tests, strict TypeScript checks, coverage enforcement,
   compiled CLI scenarios, package-boundary inspection, and public ReleaseGuard
@@ -35,8 +36,8 @@ I am based in the Greater Calgary area, Canada, and interested in junior softwar
 - Portfolio: React build, route/accessibility tests, high-severity dependency
   audit, ServicePulse screenshots, CloudFileFlow and ReleaseGuard static demo
   media, and deployment runbook. Current public source commit:
-  `6b03ba8e789ee9af050f6b4d386752c62da5a1b3`. Portfolio CI run
-  `31635890591` passed at that commit; no live deployment URL is claimed yet.
+  `0eb8ba2f5e8abd1eda5f8c142b11fba8db71ec96`. Portfolio CI run
+  `31675930812` passed at that commit; no live deployment URL is claimed yet.
 
 Projects are independent portfolio work built with fictional organizations and synthetic data. Repository and demonstration links are added only after their builds, tests, documentation, and current status are verified and published.
 
